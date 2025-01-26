@@ -1,227 +1,223 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.10.31)  28 DEC 2018 10:30
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.5.9)  26 JAN 2025 21:23
  restricted system commands enabled.
 **inddef.tex
 (./inddef.tex
-LaTeX2e <2018-04-01> patch level 5
-Lua module: luaotfload-main 2018-10-28 2.93 luaotfload entry point
-Lua module: luaotfload-init 2018-10-28 2.93 luaotfload submodule / initializatio
-n
-Lua module: lualibs 2018-10-18 2.61 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2018-10-18 2.61 ConTeXt Lua libraries -- extended c
+LaTeX2e <2020-10-01> patch level 4
+Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
+Lua module: lualibs 2020-12-30 2.73 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-12-30 2.73 ConTeXt Lua libraries -- extended c
 ollection.
-Lua module: luaotfload-log 2018-10-28 2.93 luaotfload submodule / logging
-Lua module: luaotfload-parsers 2018-10-28 2.93 luaotfload submodule / filelist
-Lua module: luaotfload-configuration 2018-10-28 2.93 luaotfload submodule / conf
-ig file reader
-luaotfload | conf : Root cache directory is /home/nogutaku/.texlive2018/texmf-va
-r/luatex-cache/generic/names.
-luaotfload | init : Loading fontloader “fontloader-2018-10-28.lua” from kpse
--resolved path “/usr/local/texlive/2018/texmf-dist/tex/luatex/luaotfload/fontl
-oader-2018-10-28.lua”.
-Lua-only attribute luaotfload@state = 1
-Lua-only attribute luaotfload@noligature = 2
-Lua-only attribute luaotfload@syllabe = 3
-luaotfload | init : Context OpenType loader version “3.106”
+luaotfload | conf : Root cache directory is "/home/nogutaku/.texlive2021/texmf-v
+ar/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2021-01-07.lua" from kpse-res
+olved path "/usr/local/texlive/2021/texmf-dist/tex/luatex/luaotfload/fontloader-
+2021-01-07.lua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 0x1.8e76c8b439581p+1
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Lua module: luaotfload-loaders 2018-10-28 2.93 luaotfload submodule / callback h
-andling
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua module: luaotfload-database 2018-10-28 2.93 luaotfload submodule / database
-Lua module: luaotfload-colors 2018-10-28 2.93 luaotfload submodule / color
-Lua-only attribute luaotfload_color_attribute = 4
-Lua module: luaotfload-resolvers 2018-10-28 2.93 luaotfload submodule / resolver
-s
-luaotfload | conf : Root cache directory is /home/nogutaku/.texlive2018/texmf-va
-r/luatex-cache/generic/names.
-Lua module: luaotfload-features 2018-10-28 2.93 luaotfload submodule / features
-Lua module: luaotfload-letterspace 2018-10-28 2.93 luaotfload submodule / color
-Lua module: luaotfload-auxiliary 2018-10-28 2.93 luaotfload submodule / auxiliar
-y functions
+Lua-only attribute luaotfload_color_attribute = 3
+luaotfload | conf : Root cache directory is "/home/nogutaku/.texlive2021/texmf-v
+ar/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
 Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
 font'.
-Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
 _font'.
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
 t_unsafe'.
-Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
 '.
-Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
-.
-luaotfload | main : initialization completed in 1.098 seconds
-(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
-Document Class: ltjsarticle 2018/09/23 ltjsclasses 
-(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja.sty
-Package: luatexja 2018/09/30 Japanese Typesetting with Lua(La)TeX
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2021-05-07>
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
+Document Class: ltjsarticle 2020/12/23 ltjsclasses 
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja.sty
+Package: luatexja 2021-03-19 Japanese Typesetting with Lua(La)TeX
 
-(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja-core.sty
-Package: luatexja-core 2017/11/12 Core of LuaTeX-ja
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja-core.sty
+Package: luatexja-core 2021-03-16 Core of LuaTeX-ja
 
-(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
 Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
 
-(/usr/local/texlive/2018/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count80
+\@catcodetablestackcnt=\count175
 )
-\CatcodeTableOther=\catcodetable5
-\CatcodeTableExpl=\catcodetable6
+\CatcodeTableOther=\catcodetable12
+\CatcodeTableExpl=\catcodetable13
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
 
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX detected.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks14
+\pdftexcmds@toks=\toks15
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks15
-\XKV@tempa@toks=\toks16
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count81
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count176
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count177
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count82
-)
-\AtBeginShipoutBox=\box26
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/everyhook/everyhook.sty
-(/usr/local/texlive/2018/texmf-dist/tex/latex/svn-prov/svn-prov.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/everyhook/everyhook.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/svn-prov/svn-prov.sty
 Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
-Package: everyhook 2014/11/26 v1.2 (SVN Rev: 12)\ Hooks for low level TeX everyX
- primitives.
-\everypar=\toks17
-\frozen@everymath=\toks18
-\frozen@everydisplay=\toks19
-\everyhbox=\toks20
-\everyvbox=\toks21
-\everycr=\toks22
+Package: everyhook 2014/11/26 v1.2 (SVN Rev: 12)\ Hooks for low level TeX every
+X primitives.
+\everypar=\toks18
+\frozen@everymath=\toks19
+\frozen@everydisplay=\toks20
+\everyhbox=\toks21
+\everyvbox=\toks22
+\everycr=\toks23
 )
-\ltjlineendcomment=\count83
-\ltj@zw=\dimen102
-\ltj@zh=\dimen103
-\jQ=\dimen104
-\ltj@icflag=\attribute5
-\ltj@curjfnt=\attribute6
-\ltj@curtfnt=\attribute7
-\ltj@origchar=\attribute8
-\ltj@charclass=\attribute9
-\ltj@charcode=\attribute10
-\ltj@autospc=\attribute11
-\ltj@autoxspc=\attribute12
-\ltj@yablshift=\attribute13
-\ltj@ykblshift=\attribute14
-\ltj@tablshift=\attribute15
-\ltj@tkblshift=\attribute16
-\jfam=\attribute17
-\ltj@dir=\attribute18
+\ltjlineendcomment=\count178
+\ltj@dimen@zw=\dimen138
+\ltj@dimen@zh=\dimen139
+\ltj@dimen@jQ=\dimen140
+\ltj@icflag=\attribute4
+\ltj@curjfnt=\attribute5
+\ltj@curtfnt=\attribute6
+\ltj@charclass=\attribute7
+\ltj@charcode=\attribute8
+\ltj@autospc=\attribute9
+\ltj@autoxspc=\attribute10
+\ltj@yablshift=\attribute11
+\ltj@ykblshift=\attribute12
+\ltj@tablshift=\attribute13
+\ltj@tkblshift=\attribute14
+\jfam=\attribute15
+\ltj@vert@ori=\attribute16
+\ltj@dir=\attribute17
 \ltj@@japanese=\language2
-\ltj@tempcnta=\count84
-\ltj@kcat0=\attribute19
-\ltj@kcat1=\attribute20
-\ltj@kcat2=\attribute21
-\ltj@kcat3=\attribute22
-\ltj@kcat4=\attribute23
-\ltj@kcat5=\attribute24
-\ltj@kcat6=\attribute25
+\ltj@tempcnta=\count179
+\ltj@kcat0=\attribute18
+\ltj@kcat1=\attribute19
+\ltj@kcat2=\attribute20
+\ltj@kcat3=\attribute21
+\ltj@kcat4=\attribute22
+\ltj@kcat5=\attribute23
+\ltj@kcat6=\attribute24
 Custom whatsit inhibitglue = 1
 Custom whatsit stack_marker = 2
 Custom whatsit begin_par = 3
 Custom whatsit direction = 4
-Custom whatsit box_boundary = 5(load cache: /home/nogutaku/.texlive2018/texmf-va
-r/luatexja/ltj-cid-auto-adobe-japan1.luc)
-Lua module: luatexja.charrange 2018/02/18 Handling the range of Japanese charact
+Custom whatsit box_boundary = 5
+Custom whatsit ja_al_boundary = 6(load cache: ltj-cid-auto-adobe-japan1.luc)
+Lua module: luatexja.charrange 2020-07-30 Handling the range of Japanese charact
 ers
-Lua module: luatexja.stack 2018/02/18 LuaTeX-ja stack system
-Inserting `ltj.create_dir_whatsit' at position 2 in `hpack_filter'.
-Inserting `ltj.create_dir_whatsit' at position 1 in `post_linebreak_filter'.
+Lua module: luatexja.stack 2020-07-30 LuaTeX-ja stack system
+Inserting `ltj.create_dir_whatsit' at position 3 in `hpack_filter'.
+Inserting `ltj.create_dir_whatsit' at position 2 in `post_linebreak_filter'.
 Inserting `ltj.direction' at position 1 in `vpack_filter'.
 Inserting `ltj.direction' at position 1 in `pre_output_filter'.
-Inserting `ltj.lineskip' at position 2 in `post_linebreak_filter'.
+Inserting `ltj.lineskip' at position 3 in `post_linebreak_filter'.
 Inserting `ltj.lineskip' at position 1 in `append_to_vlist_filter'.
-Lua module: luatexja.jfont 2018/06/15 Loader for Japanese fonts
+Lua module: luatexja.jfont 2020-10-05 Loader for Japanese fonts
 Removing  `luaotfload.define_font' from `define_font'.
 Inserting `luatexja.font_callback' at position 1 in `define_font'.
 Removing  `luaotfload.aux.set_sscale_dimens' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_font_index' from `luaotfload.patch_font'.
 Removing  `luaotfload.aux.patch_cambria_domh' from `luaotfload.patch_font'.
 Removing  `luaotfload.aux.set_capheight' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_xheight' from `luaotfload.patch_font'.
 Removing  `luaotfload.rewrite_fontname' from `luaotfload.patch_font'.
 Inserting `ltj.prepare_extra_data' at position 1 in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_sscale_dimens' at position 2 in `luaotfload.patch_
 font'.
-Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+Inserting `luaotfload.aux.set_font_index' at position 3 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 4 in `luaotfload.patch
 _font'.
-Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+Inserting `luaotfload.aux.set_capheight' at position 5 in `luaotfload.patch_font
 '.
-Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'
+Inserting `luaotfload.aux.set_xheight' at position 6 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 7 in `luaotfload.patch_font'
 .
 Inserting `ltj.prepare_extra_data' at position 1 in `luatexja.define_font'.
-Inserting `ltj.v_advance' at position 1 in `luatexja.define_jfont'.
-Removing  `ltj.v_advance' from `luatexja.define_jfont'.
 Inserting `ltj.get_vert_form' at position 1 in `luatexja.define_jfont'.
-Inserting `ltj.v_advance' at position 2 in `luatexja.define_jfont'.
 Removing  `ltj.prepare_extra_data' from `luaotfload.patch_font'.
 Removing  `luaotfload.aux.set_sscale_dimens' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_font_index' from `luaotfload.patch_font'.
 Removing  `luaotfload.aux.patch_cambria_domh' from `luaotfload.patch_font'.
 Removing  `luaotfload.aux.set_capheight' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_xheight' from `luaotfload.patch_font'.
 Removing  `luaotfload.rewrite_fontname' from `luaotfload.patch_font'.
 Inserting `ltj.supply_tounicode' at position 1 in `luaotfload.patch_font'.
 Inserting `ltj.prepare_extra_data' at position 2 in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_sscale_dimens' at position 3 in `luaotfload.patch_
 font'.
-Inserting `luaotfload.aux.patch_cambria_domh' at position 4 in `luaotfload.patch
+Inserting `luaotfload.aux.set_font_index' at position 4 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 5 in `luaotfload.patch
 _font'.
-Inserting `luaotfload.aux.set_capheight' at position 5 in `luaotfload.patch_font
+Inserting `luaotfload.aux.set_capheight' at position 6 in `luaotfload.patch_font
 '.
-Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+Inserting `luaotfload.aux.set_xheight' at position 7 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 8 in `luaotfload.patch_font'
 .
 Inserting `ltj.process_input_buffer' at position 1 in `process_input_buffer'.
 Inserting `ltj.hyphenate' at position 1 in `hyphenate'.
 Removing  `luaotfload.node_processor' from `hpack_filter'.
+Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
 Removing  `ltj.create_dir_whatsit' from `hpack_filter'.
 Inserting `ltj.set_stack_level' at position 1 in `hpack_filter'.
 Inserting `luaotfload.node_processor' at position 2 in `hpack_filter'.
-Inserting `ltj.create_dir_whatsit' at position 3 in `hpack_filter'.
+Inserting `luaotfload.harf.finalize_hlist' at position 3 in `hpack_filter'.
+Inserting `ltj.create_dir_whatsit' at position 4 in `hpack_filter'.
 Removing  `luaotfload.node_processor' from `pre_linebreak_filter'.
 Inserting `ltj.set_stack_level' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 2 in `pre_linebreak_filter'.
-Lua module: luatexja.jfmglue 2018/08/11 Insertion process of JFM glues, [x]kanji
+Lua module: luatexja.jfmglue 2021-02-11 Insertion process of JFM glues, [x]kanji
 skip and others
 Inserting `luatexja.beginpar.np_info' at position 1 in `luatexja.jfmglue.whatsit
 _getinfo'.
 Inserting `luatexja.beginpar.np_info_after' at position 1 in `luatexja.jfmglue.w
 hatsit_after'.
-Inserting `ltj.mlist_to_hlist' at position 1 in `mlist_to_hlist'.
+Inserting `ltj.mlist_to_hlist_pre' at position 1 in `pre_mlist_to_hlist_filter'.
 Inserting `ltj.main' at position 3 in `pre_linebreak_filter'.
+Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
 Removing  `ltj.create_dir_whatsit' from `hpack_filter'.
 Inserting `ltj.main' at position 3 in `hpack_filter'.
-Inserting `ltj.create_dir_whatsit' at position 4 in `hpack_filter'.
+Inserting `luaotfload.harf.finalize_hlist' at position 4 in `hpack_filter'.
+Inserting `ltj.create_dir_whatsit' at position 5 in `hpack_filter'.
 Removing  `ltj.set_stack_level' from `pre_linebreak_filter'.
 Removing  `luaotfload.node_processor' from `pre_linebreak_filter'.
 Removing  `ltj.main' from `pre_linebreak_filter'.
@@ -232,561 +228,409 @@ Inserting `ltj.main' at position 4 in `pre_linebreak_filter'.
 Removing  `ltj.set_stack_level' from `hpack_filter'.
 Removing  `luaotfload.node_processor' from `hpack_filter'.
 Removing  `ltj.main' from `hpack_filter'.
+Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
 Removing  `ltj.create_dir_whatsit' from `hpack_filter'.
 Inserting `ltj.adjust_icflag' at position 1 in `hpack_filter'.
 Inserting `ltj.set_stack_level' at position 2 in `hpack_filter'.
 Inserting `luaotfload.node_processor' at position 3 in `hpack_filter'.
 Inserting `ltj.main' at position 4 in `hpack_filter'.
-Inserting `ltj.create_dir_whatsit' at position 5 in `hpack_filter'. (/usr/local
-/texlive/2018/texmf-dist/tex/luatex/luatexja/ltj-base.sty
-Package: ltj-base 2017/05/05
-\ltj@tempcntb=\count85
-\ltj@tempcntc=\count86
-\ltj@tempdima=\dimen105
-\ltj@afbox=\box27
+Inserting `luaotfload.harf.finalize_hlist' at position 5 in `hpack_filter'.
+Inserting `ltj.create_dir_whatsit' at position 6 in `hpack_filter'.
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/ltj-base.sty
+Package: ltj-base 2021-03-16
+\ltj@tempcntb=\count180
+\ltj@tempcntc=\count181
+\ltj@tempdima=\dimen141
+\ltj@afbox=\box47
 )
-\ltj@@italic@inner=\luafunction1
-\ltj@@jfont@inner=\luafunction2
-\ltj@zw@inner=\luafunction3
-\ltj@zh@inner=\luafunction4
-\ltj@reset@globaldefs@inner=\luafunction5
-\ltj@restore@globaldefs@inner=\luafunction6
-\ltj@@ihb@inner=\luafunction7
-\ltj@@fakeparbegin@inner=\luafunction8
-\ltj@@fakeboxbdd@inner=\luafunction9
-\ltj@@stack=\count87
-\ltj@@group@level=\count88
-\ltjsetkanjiskip@inner=\luafunction10
-\ltjsetxkanjiskip@inner=\luafunction11
-\ltj@@box@dirhook=\luafunction12
-\ltj@@reset@badness@inner=\luafunction13
+\ltj@@italic@inner=\luafunction11
+\ltj@@start@time@measure@inner=\luafunction12
+\ltj@@stop@time@measure@inner=\luafunction13
+\ltj@@jfont@inner=\luafunction14
+\ltj@zw@inner=\luafunction15
+\ltj@zh@inner=\luafunction16
+\ltj@reset@globaldefs@inner=\luafunction17
+\ltj@restore@globaldefs@inner=\luafunction18
+\ltj@@disihb@inner=\luafunction19
+\ltj@@ihb@inner=\luafunction20
+\ltj@@fakeparbegin@inner=\luafunction21
+\ltj@@fakeboxbdd@inner=\luafunction22
+\ltj@@ins@xk@inner=\luafunction23
+\ltj@@ins@k@inner=\luafunction24
+\ltj@@stack=\count182
+\ltj@@group@level=\count183
+\ltjsetkanjiskip@inner=\luafunction25
+\ltjsetxkanjiskip@inner=\luafunction26
+\ltj@@getparam@one@inner=\luafunction27
+\ltj@alljachar@inner=\luafunction28
+\ltj@@lua@populate@insertwhatsit@inner=\luafunction29
+\ltj@@box@dirhook@inner=\luafunction30
+\ltj@@reset@badness@inner=\luafunction31
+\ltj@@lua@raisebox@inner=\luafunction32
+\ltj@@lua@unboxcheckdir@inner=\luafunction33
+(load cache: ltj-kinsoku_default.luc)
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/ltj-latex.sty
+Package: ltj-latex 2021-03-18 LaTeX support of LuaTeX-ja
+\ltj@@lua@shipout@inner=\luafunction34
 
-(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/ltj-latex.sty
-Package: ltj-latex 2018/08/24 LaTeX support of LuaTeX-ja
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjfont.sty
+Package: lltjfont 2021-02-14 Patch to NFSS2 for LuaTeX-ja
+\ltj@@latex@plv=\count184
 
-(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/patches/lltjfont.sty
-Package: lltjfont 2018/01/12 Patch to NFSS2 for LuaTeX-ja
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/tuenc.def
-File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2020/08/10 v2.0s Standard LaTeX file
+\@remove@tlig@@@@=\luafunction35
+LaTeX Font Info:    Redeclaring font encoding TU on input line 106.
 )
-\Cht=\dimen106
-\cht=\dimen107
-\Cdp=\dimen108
-\cdp=\dimen109
-\Cwd=\dimen110
-\cwd=\dimen111
-\Cvs=\dimen112
-\cvs=\dimen113
-\Chs=\dimen114
-\chs=\dimen115
-\cHT=\dimen116
-\dstrutbox=\box28
-\tstrutbox=\box29
-\zstrutbox=\box30
+\Cht=\dimen142
+\cht=\dimen143
+\Cdp=\dimen144
+\cdp=\dimen145
+\Cwd=\dimen146
+\cwd=\dimen147
+\Cvs=\dimen148
+\cvs=\dimen149
+\Chs=\dimen150
+\chs=\dimen151
+\cHT=\dimen152
+\dstrutbox=\box48
+\tstrutbox=\box49
+\zstrutbox=\box50
+LaTeX Info: Redefining \strut on input line 90.
+\ltj@@add@fenc@@inner=\luafunction36
+\ltj@@add@kyenc@@inner=\luafunction37
+\ltj@@add@ktenc@@inner=\luafunction38
+\ltj@@is@kyenc@@inner=\luafunction39
+\ltj@@is@ktenc@@inner=\luafunction40
+\ltj@@is@kenc@@inner=\luafunction41
+\ltj@@is@ffam@@inner=\luafunction42
+\ltj@@add@ffam@@inner=\luafunction43
+\ltj@@add@kfam@@inner=\luafunction44
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
-Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/everysel/everysel.sty
+Package: everysel 2021/01/20 v2.1 EverySelectfont Package (MS)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/everysel/everysel-2011-10-28.sty))
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 448.
+\ltj@@adjust@baseline@inner=\luafunction45
+LaTeX Info: Redefining \fontencoding on input line 643.
+LaTeX Info: Redefining \fontfamily on input line 686.
+LaTeX Info: Redefining \fontseries on input line 919.
+LaTeX Info: Redefining \fontseriesforce on input line 920.
+LaTeX Info: Redefining \fontshape on input line 925.
+LaTeX Info: Redefining \fontshapeforce on input line 932.
+\ltj@@jfont@@jfmonly@@inner=\luafunction46
+\ltj@@does@alt@set@@inner=\luafunction47
 )
-ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 316.
-\ltj@@adjust@baseline@inner=\luafunction14
-LaTeX Info: Redefining \fontencoding on input line 468.
-LaTeX Info: Redefining \fontfamily on input line 513.
-LaTeX Info: Redefining \fontseries on input line 547.
-LaTeX Info: Redefining \fontshape on input line 550.
-LaTeX Info: Redefining \normalfont on input line 562.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/patches/lltjdefs.sty
-Package: lltjdefs 2018/09/05 Default font settings of LuaTeX-ja
-luaotfload | db : Font names database loaded from /home/nogutaku/.texlive2018/te
-xmf-var/luatex-cache/generic/names/luaotfload-names.luc
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjdefs.sty
+Package: lltjdefs 2021-01-24 Default font settings of LuaTeX-ja
+luaotfload | db : Font names database loaded from /home/nogutaku/.texlive2021/te
+xmf-var/luatex-cache/generic/names/luaotfload-names.luc(load cache: extra_lmroma
+n10-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 59.
-luaotfload | cache : Lookup cache loaded from /home/nogutaku/.texlive2018/texmf-
-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load cache: /home/no
-gutaku/.texlive2018/texmf-var/luatexja/extra_ipaexmincho.luc)
-(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/jfm-ujisv.lua)
-luaotfload | aux : font no 16 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 16
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 59.
+(Font)              scaled to size 9.24713pt on input line 75.
 
-(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/jfm-ujis.lua)
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/jfm-ujisv.lua)
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 75.
+(load cache: extra_haranoajimincho-regular.luc)
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/jfm-ujis.lua)
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY3/mc/m/n --> JY3/gt/m/n on input line 68.
-LaTeX Info: Redefining \rmfamily on input line 75.
-LaTeX Info: Redefining \sffamily on input line 79.
-LaTeX Info: Redefining \ttfamily on input line 83.
-LaTeX Info: Redefining \em on input line 88.
+(Font)                  JY3/mc/m/n --> JY3/gt/m/n on input line 84.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/patches/lltjcore.sty
-Package: lltjcore 2018/06/15 Patch to LaTeX2e Kernel for LuaTeX-ja
-\@tombowwidth=\dimen117
-\@TL=\box31
-\@Tl=\box32
-\@TC=\box33
-\@TR=\box34
-\@Tr=\box35
-\@BL=\box36
-\@Bl=\box37
-\@BC=\box38
-\@BR=\box39
-\@Br=\box40
-\@CL=\box41
-\@CR=\box42
-\@bannertoken=\toks23
-\@@paperheight=\dimen118
-\@@paperwidth=\dimen119
-\@@topmargin=\dimen120
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjcore.sty
+Package: lltjcore 2021-03-19 Patch to LaTeX2e Kernel for LuaTeX-ja
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-05-07 L3 programming layer (loader) 
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2021-05-07 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count185
+\l__pdf_internal_box=\box51
+))
+\@tombowwidth=\dimen153
+\@TL=\box52
+\@Tl=\box53
+\@TC=\box54
+\@TR=\box55
+\@Tr=\box56
+\@BL=\box57
+\@Bl=\box58
+\@BC=\box59
+\@BR=\box60
+\@Br=\box61
+\@CL=\box62
+\@CR=\box63
+(load cache: extra_lmmono9-regular.luc)
+\@bannertoken=\toks24
+\@@paperheight=\dimen154
+\@@paperwidth=\dimen155
+\@@topmargin=\dimen156
+LaTeX Info: Redefining \underline on input line 261.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/filehook/filehook.sty
-Package: filehook 2011/10/12 v0.5d Hooks for input files
-)
-(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/patches/lltjp-geometry.
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-atbegshi.
 sty
-Package: lltjp-geometry 2018/01/19 Patch to geometry for LuaTeX-ja with vertical
- writing mode
-))
-\ltj@temp@cctb=\catcodetable7
+Package: lltjp-atbegshi 2021-03-14 Patching \shipout hooks for LuaTeX-ja
+\l__platex_shipout_dummy_box=\box64
 )
-(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja-compat.sty
-Package: luatexja-compat 2018/03/29 Compatibility with pTeX
-(load cache: /home/nogutaku/.texlive2018/texmf-var/luatexja/ltj-jisx0208.luc)
-\hour=\count89
-\minute=\count90
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-geometry.
+sty
+Package: lltjp-geometry 2020-12-29 Patch to geometry for LuaTeX-ja with vertica
+l writing mode
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)))
+\ltj@temp@cctb=\catcodetable14
+)
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja-compat.sty
+Package: luatexja-compat 2020-08-08 Compatibility with pTeX
+(load cache: ltj-jisx0208.luc)
+\hour=\count186
+\minute=\count187
 ))
-\jsc@mpt=\dimen121
-\jsc@mmm=\dimen122
-\ltjs@@magnify@font@calc=\luafunction15
-\jsc@smallskipamount=\skip41
+\jsc@mpt=\dimen157
+\jsc@mmm=\dimen158
+\ltjs@@magnify@font@calc=\luafunction48
+\jsc@smallskipamount=\skip47
+(load cache: extra_lmroman9-regular.luc)
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 412.
+(Font)              scaled to size 8.44485pt on input line 414.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 412.
-luaotfload | aux : font no 21 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 21
+(Font)              scaled to size 9.24713pt on input line 414.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 412.
-\fullwidth=\dimen123
+(Font)              scaled to size 9.24713pt on input line 414.
+\fullwidth=\dimen159
+(load cache: extra_lmroman8-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 7.3977pt on input line 553.
-luaotfload | aux : font no 24 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 24
+(Font)              scaled to size 7.3977pt on input line 555.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 7.3977pt on input line 553.
-\c@part=\count91
-\c@section=\count92
-\c@subsection=\count93
-\c@subsubsection=\count94
-\c@paragraph=\count95
-\c@subparagraph=\count96
-\@abstractbox=\box43
-\c@figure=\count97
-\c@table=\count98
-\abovecaptionskip=\skip42
-\belowcaptionskip=\skip43
-LaTeX Info: Redefining \mc on input line 1206.
-LaTeX Info: Redefining \gt on input line 1207.
-\jsc@tocl@width=\dimen124
-\@lnumwidth=\dimen125
-\bibindent=\dimen126
+(Font)              scaled to size 7.3977pt on input line 555.
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\@abstractbox=\box65
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+LaTeX Info: Redefining \mc on input line 1208.
+LaTeX Info: Redefining \gt on input line 1209.
+\jsc@tocl@width=\dimen160
+\@lnumwidth=\dimen161
+\bibindent=\dimen162
 
-(/usr/local/texlive/2018/texmf-dist/tex/platex/jsclasses/jslogo.sty
-Package: jslogo 2017/02/24 okumura, texjporg
-LaTeX Info: Redefining \TeX on input line 94.
-LaTeX Info: Redefining \LaTeX on input line 147.
-LaTeX Info: Redefining \LaTeXe on input line 200.
+(/usr/local/texlive/2021/texmf-dist/tex/platex/jsclasses/jslogo.sty
+Package: jslogo 2019/07/25 okumura, texjporg
+LaTeX Info: Redefining \TeX on input line 82.
+LaTeX Info: Redefining \LaTeX on input line 135.
+LaTeX Info: Redefining \LaTeXe on input line 188.
 )
-\heisei=\count99
+\heisei=\count196
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/sttools/stfloats.sty
-Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip setti
-ngs
-\@dblbotnum=\count100
-\c@dblbotnumber=\count101
+(/usr/local/texlive/2021/texmf-dist/tex/latex/sttools/stfloats.sty
+Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip sett
+ings
+\@dblbotnum=\count197
+\c@dblbotnumber=\count198
 )
-(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/patches/lltjp-stfloats.
-sty)) (/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2018-10-26 L3 programming layer (loader) 
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2018-10-26 L3 programming layer (code)
-\ucharcat@table=\catcodetable8
-\c_max_int=\count102
-\l_tmpa_int=\count103
-\l_tmpb_int=\count104
-\g_tmpa_int=\count105
-\g_tmpb_int=\count106
-\g__kernel_prg_map_int=\count107
-\c_log_iow=\count108
-\l_iow_line_count_int=\count109
-\l__iow_line_target_int=\count110
-\l__iow_one_indent_int=\count111
-\l__iow_indent_int=\count112
-\c_zero_dim=\dimen127
-\c_max_dim=\dimen128
-\l_tmpa_dim=\dimen129
-\l_tmpb_dim=\dimen130
-\g_tmpa_dim=\dimen131
-\g_tmpb_dim=\dimen132
-\c_zero_skip=\skip44
-\c_max_skip=\skip45
-\l_tmpa_skip=\skip46
-\l_tmpb_skip=\skip47
-\g_tmpa_skip=\skip48
-\g_tmpb_skip=\skip49
-\c_zero_muskip=\muskip10
-\c_max_muskip=\muskip11
-\l_tmpa_muskip=\muskip12
-\l_tmpb_muskip=\muskip13
-\g_tmpa_muskip=\muskip14
-\g_tmpb_muskip=\muskip15
-\l_keys_choice_int=\count113
-\l__intarray_loop_int=\count114
-\c__intarray_sp_dim=\dimen133
-\g__intarray_font_int=\count115
-\c__fp_leading_shift_int=\count116
-\c__fp_middle_shift_int=\count117
-\c__fp_trailing_shift_int=\count118
-\c__fp_big_leading_shift_int=\count119
-\c__fp_big_middle_shift_int=\count120
-\c__fp_big_trailing_shift_int=\count121
-\c__fp_Bigg_leading_shift_int=\count122
-\c__fp_Bigg_middle_shift_int=\count123
-\c__fp_Bigg_trailing_shift_int=\count124
-\g__fp_array_int=\count125
-\l__fp_array_loop_int=\count126
-\l__sort_length_int=\count127
-\l__sort_min_int=\count128
-\l__sort_top_int=\count129
-\l__sort_max_int=\count130
-\l__sort_true_max_int=\count131
-\l__sort_block_int=\count132
-\l__sort_begin_int=\count133
-\l__sort_end_int=\count134
-\l__sort_A_int=\count135
-\l__sort_B_int=\count136
-\l__sort_C_int=\count137
-\l__tl_analysis_normal_int=\count138
-\l__tl_analysis_index_int=\count139
-\l__tl_analysis_nesting_int=\count140
-\l__tl_analysis_type_int=\count141
-\l__regex_internal_a_int=\count142
-\l__regex_internal_b_int=\count143
-\l__regex_internal_c_int=\count144
-\l__regex_balance_int=\count145
-\l__regex_group_level_int=\count146
-\l__regex_mode_int=\count147
-\c__regex_cs_in_class_mode_int=\count148
-\c__regex_cs_mode_int=\count149
-\l__regex_catcodes_int=\count150
-\l__regex_default_catcodes_int=\count151
-\c__regex_catcode_L_int=\count152
-\c__regex_catcode_O_int=\count153
-\c__regex_catcode_A_int=\count154
-\c__regex_all_catcodes_int=\count155
-\l__regex_show_lines_int=\count156
-\l__regex_min_state_int=\count157
-\l__regex_max_state_int=\count158
-\l__regex_left_state_int=\count159
-\l__regex_right_state_int=\count160
-\l__regex_capturing_group_int=\count161
-\l__regex_min_pos_int=\count162
-\l__regex_max_pos_int=\count163
-\l__regex_curr_pos_int=\count164
-\l__regex_start_pos_int=\count165
-\l__regex_success_pos_int=\count166
-\l__regex_curr_char_int=\count167
-\l__regex_curr_catcode_int=\count168
-\l__regex_last_char_int=\count169
-\l__regex_case_changed_char_int=\count170
-\l__regex_curr_state_int=\count171
-\l__regex_step_int=\count172
-\l__regex_min_active_int=\count173
-\l__regex_max_active_int=\count174
-\l__regex_replacement_csnames_int=\count175
-\l__regex_match_count_int=\count176
-\l__regex_min_submatch_int=\count177
-\l__regex_submatch_int=\count178
-\l__regex_zeroth_submatch_int=\count179
-\g__regex_trace_regex_int=\count180
-\c_empty_box=\box44
-\l_tmpa_box=\box45
-\l_tmpb_box=\box46
-\g_tmpa_box=\box47
-\g_tmpb_box=\box48
-\l__box_top_dim=\dimen134
-\l__box_bottom_dim=\dimen135
-\l__box_left_dim=\dimen136
-\l__box_right_dim=\dimen137
-\l__box_top_new_dim=\dimen138
-\l__box_bottom_new_dim=\dimen139
-\l__box_left_new_dim=\dimen140
-\l__box_right_new_dim=\dimen141
-\l__box_internal_box=\box49
-\l__coffin_internal_box=\box50
-\l__coffin_internal_dim=\dimen142
-\l__coffin_offset_x_dim=\dimen143
-\l__coffin_offset_y_dim=\dimen144
-\l__coffin_x_dim=\dimen145
-\l__coffin_y_dim=\dimen146
-\l__coffin_x_prime_dim=\dimen147
-\l__coffin_y_prime_dim=\dimen148
-\c_empty_coffin=\box51
-\l__coffin_aligned_coffin=\box52
-\l__coffin_aligned_internal_coffin=\box53
-\l_tmpa_coffin=\box54
-\l_tmpb_coffin=\box55
-\l__coffin_display_coffin=\box56
-\l__coffin_display_coord_coffin=\box57
-\l__coffin_display_pole_coffin=\box58
-\l__coffin_display_offset_dim=\dimen149
-\l__coffin_display_x_dim=\dimen150
-\l__coffin_display_y_dim=\dimen151
-\g__file_internal_ior=\read1
-\l__coffin_bounding_shift_dim=\dimen152
-\l__coffin_left_corner_dim=\dimen153
-\l__coffin_right_corner_dim=\dimen154
-\l__coffin_bottom_corner_dim=\dimen155
-\l__coffin_top_corner_dim=\dimen156
-\l__coffin_scaled_total_height_dim=\dimen157
-\l__coffin_scaled_width_dim=\dimen158
-\l__seq_internal_a_int=\count181
-\l__seq_internal_b_int=\count182
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-File: l3pdfmode.def 2018-10-26 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count183
-))
-Package: xparse 2018-10-17 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count184
-\g__xparse_grabber_int=\count185
-\l__xparse_m_args_int=\count186
-\l__xparse_mandatory_args_int=\count187
-\l__xparse_v_nesting_int=\count188
-)
-Package: fontspec 2018/07/30 vv2.6h Font selection for XeLaTeX and LuaLaTeX
-Lua module: fontspec 2018/07/30 v2.6h Font selection for XeLaTeX and LuaLaTeX
-(/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
-Package: fontspec-luatex 2018/07/30 vv2.6h Font selection for XeLaTeX and LuaLaT
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-stfloats.
+sty)) (/usr/local/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-
+01.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
+tex)))
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2020/02/21 2.7i Font selection for XeLaTeX and LuaLaTeX
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaT
 eX
-\l__fontspec_script_int=\count189
-\l__fontspec_language_int=\count190
-\l__fontspec_strnum_int=\count191
-\l__fontspec_tmp_int=\count192
-\l__fontspec_em_int=\count193
-\l__fontspec_emdef_int=\count194
-\l__fontspec_strong_int=\count195
-\l__fontspec_strongdef_int=\count196
-\l__fontspec_tmpa_dim=\dimen159
-\l__fontspec_tmpb_dim=\dimen160
-\l__fontspec_tmpc_dim=\dimen161
+\l__fontspec_script_int=\count199
+\l__fontspec_language_int=\count266
+\l__fontspec_strnum_int=\count267
+\l__fontspec_tmp_int=\count268
+\l__fontspec_tmpa_int=\count269
+\l__fontspec_tmpb_int=\count270
+\l__fontspec_tmpc_int=\count271
+\l__fontspec_em_int=\count272
+\l__fontspec_emdef_int=\count273
+\l__fontspec_strong_int=\count274
+\l__fontspec_strongdef_int=\count275
+\l__fontspec_tmpa_dim=\dimen163
+\l__fontspec_tmpb_dim=\dimen164
+\l__fontspec_tmpc_dim=\dimen165
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/tuenc.def
-File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.cfg)
-LaTeX Info: Redefining \itshape on input line 3644.
-LaTeX Info: Redefining \slshape on input line 3649.
-LaTeX Info: Redefining \scshape on input line 3654.
-LaTeX Info: Redefining \upshape on input line 3659.
-LaTeX Info: Redefining \em on input line 3689.
-LaTeX Info: Redefining \emph on input line 3714.
-LaTeX Font Info:    Font shape `JT3/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 3763.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.cfg)(load cache:
+ extra_lmroman10-bold.luc)
+LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <10> not available
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 3955.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 3763.
-(load cache: /home/nogutaku/.texlive2018/texmf-var/luatexja/extra_ipaexgothic.lu
-c)
-luaotfload | aux : font no 37 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 37
-LaTeX Font Info:    Font shape `JY3/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 3763.
+(Font)              scaled to size 8.44485pt on input line 3955.
+LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <10> not available
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 3955.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 3763.
-LaTeX Font Info:    Font shape `JT3/mc/m/it' in size <10> not available
-(Font)              Font shape `JT3/mc/m/n' tried instead on input line 3764.
-LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 3764.
-luaotfload | aux : font no 21 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 21
-LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <10> not available
-(Font)              Font shape `JY3/mc/m/n' tried instead on input line 3764.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 3764.
-LaTeX Info: Redefining \- on input line 3768.
-))
-(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/patches/lltjp-fontspec.
-sty) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
+(Font)              scaled to size 8.44485pt on input line 3955.
+(load cache: extra_haranoajigothic-medium.luc)))
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-fontspec.
+sty) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks24
-\ex@=\dimen162
+\@emptytoks=\toks25
+\ex@=\dimen166
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen163
+\pmbraise@=\dimen167
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count197
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count198
-\leftroot@=\count199
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count266
-\DOTSCASE@=\count267
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box59
-\strutbox@=\box60
-\big@size=\dimen164
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count268
-\c@MaxMatrixCols=\count269
+\inf@bad=\count276
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count277
+\leftroot@=\count278
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count279
+\DOTSCASE@=\count280
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box66
+\strutbox@=\box67
+\big@size=\dimen168
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count281
+\c@MaxMatrixCols=\count282
 \dotsspace@=\muskip16
-\c@parentequation=\count270
-\dspbrk@lvl=\count271
-\tag@help=\toks25
-\row@=\count272
-\column@=\count273
-\maxfields@=\count274
-\andhelp@=\toks26
-\eqnshift@=\dimen165
-\alignsep@=\dimen166
-\tagshift@=\dimen167
-\tagwidth@=\dimen168
-\totwidth@=\dimen169
-\lineht@=\dimen170
-\@envbody=\toks27
+\c@parentequation=\count283
+\dspbrk@lvl=\count284
+\tag@help=\toks26
+\row@=\count285
+\column@=\count286
+\maxfields@=\count287
+\andhelp@=\toks27
+\eqnshift@=\dimen169
+\alignsep@=\dimen170
+\tagshift@=\dimen171
+\tagwidth@=\dimen172
+\totwidth@=\dimen173
+\lineht@=\dimen174
+\@envbody=\toks28
 \multlinegap=\skip51
 \multlinetaggap=\skip52
-\mathdisplay@stack=\toks28
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks29
-\thm@bodyfont=\toks30
-\thm@headfont=\toks31
-\thm@notefont=\toks32
-\thm@headpunct=\toks33
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks30
+\thm@bodyfont=\toks31
+\thm@headfont=\toks32
+\thm@notefont=\toks33
+\thm@headpunct=\toks34
 \thm@preskip=\skip53
 \thm@postskip=\skip54
 \thm@headsep=\skip55
-\dth@everypar=\toks34
+\dth@everypar=\toks35
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/braket/braket.sty)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/prettyref/prettyref.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/prettyref/prettyref.sty
 Package: prettyref 1998/07/09 v3.0
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-)))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count275
+\lrq@indent=\count288
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/logreq/logreq.def
+(/usr/local/texlive/2021/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.tex
-\@xs@message=\write3
-\integerpart=\count276
-\decimalpart=\count277
-)
-Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
-)
-\c@tabx@nest=\count278
-\c@listtotal=\count279
-\c@listcount=\count280
-\c@liststart=\count281
-\c@liststop=\count282
-\c@citecount=\count283
-\c@citetotal=\count284
-\c@multicitecount=\count285
-\c@multicitetotal=\count286
-\c@instcount=\count287
-\c@maxnames=\count288
-\c@minnames=\count289
-\c@maxitems=\count290
-\c@minitems=\count291
-\c@citecounter=\count292
-\c@savedcitecounter=\count293
-\c@uniquelist=\count294
-\c@uniquename=\count295
-\c@refsection=\count296
-\c@refsegment=\count297
-\c@maxextratitle=\count298
-\c@maxextratitleyear=\count299
-\c@maxextradate=\count300
-\c@maxextraalpha=\count301
-\c@abbrvpenalty=\count302
-\c@highnamepenalty=\count303
-\c@lownamepenalty=\count304
-\c@maxparens=\count305
-\c@parenlevel=\count306
-\blx@tempcnta=\count307
-\blx@tempcntb=\count308
-\blx@tempcntc=\count309
-\blx@maxsection=\count310
-\blx@maxsegment@0=\count311
-\blx@notetype=\count312
-\blx@parenlevel@text=\count313
-\blx@parenlevel@foot=\count314
-\blx@sectionciteorder@0=\count315
+\c@tabx@nest=\count289
+\c@listtotal=\count290
+\c@listcount=\count291
+\c@liststart=\count292
+\c@liststop=\count293
+\c@citecount=\count294
+\c@citetotal=\count295
+\c@multicitecount=\count296
+\c@multicitetotal=\count297
+\c@instcount=\count298
+\c@maxnames=\count299
+\c@minnames=\count300
+\c@maxitems=\count301
+\c@minitems=\count302
+\c@citecounter=\count303
+\c@maxcitecounter=\count304
+\c@savedcitecounter=\count305
+\c@uniquelist=\count306
+\c@uniquename=\count307
+\c@refsection=\count308
+\c@refsegment=\count309
+\c@maxextratitle=\count310
+\c@maxextratitleyear=\count311
+\c@maxextraname=\count312
+\c@maxextradate=\count313
+\c@maxextraalpha=\count314
+\c@abbrvpenalty=\count315
+\c@highnamepenalty=\count316
+\c@lownamepenalty=\count317
+\c@maxparens=\count318
+\c@parenlevel=\count319
+\blx@tempcnta=\count320
+\blx@tempcntb=\count321
+\blx@tempcntc=\count322
+\blx@maxsection=\count323
+\blx@maxsegment@0=\count324
+\blx@notetype=\count325
+\blx@parenlevel@text=\count326
+\blx@parenlevel@foot=\count327
+\blx@sectionciteorder@0=\count328
+\blx@entrysetcounter=\count329
+\blx@biblioinstance=\count330
 \labelnumberwidth=\skip56
 \labelalphawidth=\skip57
 \biblabelsep=\skip58
@@ -796,88 +640,93 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibparsep=\skip62
 \bibhang=\skip63
 \blx@bcfin=\read2
-\blx@bcfout=\write4
-\c@mincomprange=\count316
-\c@maxcomprange=\count317
-\c@mincompwidth=\count318
+\blx@bcfout=\write3
+\blx@langwohyphens=\language3
+\c@mincomprange=\count331
+\c@maxcomprange=\count332
+\c@mincompwidth=\count333
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2018/03/04 v3.11 biblatex localization (PK/MW)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'phys.dbx' not found.
+Package biblatex Info: ... file 'phys.dbx' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-phys/phys.dbx
+File: phys.dbx 2019/12/03 v1.1b biblatex database model extension
+)
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count319
-\c@savedafterword=\count320
-\c@annotator=\count321
-\c@savedannotator=\count322
-\c@author=\count323
-\c@savedauthor=\count324
-\c@bookauthor=\count325
-\c@savedbookauthor=\count326
-\c@commentator=\count327
-\c@savedcommentator=\count328
-\c@editor=\count329
-\c@savededitor=\count330
-\c@editora=\count331
-\c@savededitora=\count332
-\c@editorb=\count333
-\c@savededitorb=\count334
-\c@editorc=\count335
-\c@savededitorc=\count336
-\c@foreword=\count337
-\c@savedforeword=\count338
-\c@holder=\count339
-\c@savedholder=\count340
-\c@introduction=\count341
-\c@savedintroduction=\count342
-\c@namea=\count343
-\c@savednamea=\count344
-\c@nameb=\count345
-\c@savednameb=\count346
-\c@namec=\count347
-\c@savednamec=\count348
-\c@translator=\count349
-\c@savedtranslator=\count350
-\c@shortauthor=\count351
-\c@savedshortauthor=\count352
-\c@shorteditor=\count353
-\c@savedshorteditor=\count354
-\c@labelname=\count355
-\c@savedlabelname=\count356
-\c@institution=\count357
-\c@savedinstitution=\count358
-\c@lista=\count359
-\c@savedlista=\count360
-\c@listb=\count361
-\c@savedlistb=\count362
-\c@listc=\count363
-\c@savedlistc=\count364
-\c@listd=\count365
-\c@savedlistd=\count366
-\c@liste=\count367
-\c@savedliste=\count368
-\c@listf=\count369
-\c@savedlistf=\count370
-\c@location=\count371
-\c@savedlocation=\count372
-\c@organization=\count373
-\c@savedorganization=\count374
-\c@origlocation=\count375
-\c@savedoriglocation=\count376
-\c@origpublisher=\count377
-\c@savedorigpublisher=\count378
-\c@publisher=\count379
-\c@savedpublisher=\count380
-\c@language=\count381
-\c@savedlanguage=\count382
-\c@origlanguage=\count383
-\c@savedoriglanguage=\count384
-\c@pageref=\count385
-\c@savedpageref=\count386
+\c@afterword=\count334
+\c@savedafterword=\count335
+\c@annotator=\count336
+\c@savedannotator=\count337
+\c@author=\count338
+\c@savedauthor=\count339
+\c@bookauthor=\count340
+\c@savedbookauthor=\count341
+\c@commentator=\count342
+\c@savedcommentator=\count343
+\c@editor=\count344
+\c@savededitor=\count345
+\c@editora=\count346
+\c@savededitora=\count347
+\c@editorb=\count348
+\c@savededitorb=\count349
+\c@editorc=\count350
+\c@savededitorc=\count351
+\c@foreword=\count352
+\c@savedforeword=\count353
+\c@holder=\count354
+\c@savedholder=\count355
+\c@introduction=\count356
+\c@savedintroduction=\count357
+\c@namea=\count358
+\c@savednamea=\count359
+\c@nameb=\count360
+\c@savednameb=\count361
+\c@namec=\count362
+\c@savednamec=\count363
+\c@translator=\count364
+\c@savedtranslator=\count365
+\c@shortauthor=\count366
+\c@savedshortauthor=\count367
+\c@shorteditor=\count368
+\c@savedshorteditor=\count369
+\c@labelname=\count370
+\c@savedlabelname=\count371
+\c@institution=\count372
+\c@savedinstitution=\count373
+\c@lista=\count374
+\c@savedlista=\count375
+\c@listb=\count376
+\c@savedlistb=\count377
+\c@listc=\count378
+\c@savedlistc=\count379
+\c@listd=\count380
+\c@savedlistd=\count381
+\c@liste=\count382
+\c@savedliste=\count383
+\c@listf=\count384
+\c@savedlistf=\count385
+\c@location=\count386
+\c@savedlocation=\count387
+\c@organization=\count388
+\c@savedorganization=\count389
+\c@origlocation=\count390
+\c@savedoriglocation=\count391
+\c@origpublisher=\count392
+\c@savedorigpublisher=\count393
+\c@publisher=\count394
+\c@savedpublisher=\count395
+\c@language=\count396
+\c@savedlanguage=\count397
+\c@origlanguage=\count398
+\c@savedoriglanguage=\count399
+\c@pageref=\count400
+\c@savedpageref=\count401
 \shorthandwidth=\skip64
 \shortjournalwidth=\skip65
 \shortserieswidth=\skip66
@@ -895,61 +744,69 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-\c@textcitecount=\count387
-\c@textcitetotal=\count388
-\c@textcitemaxnames=\count389
-\c@biburlnumpenalty=\count390
-\c@biburlucpenalty=\count391
-\c@biburllcpenalty=\count392
-\c@smartand=\count393
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count402
+\c@textcitetotal=\count403
+\c@textcitemaxnames=\count404
+\c@biburlbigbreakpenalty=\count405
+\c@biburlbreakpenalty=\count406
+\c@biburlnumpenalty=\count407
+\c@biburlucpenalty=\count408
+\c@biburllcpenalty=\count409
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count410
 )
 Package biblatex Info: Trying to load bibliography style 'phys'...
 Package biblatex Info: ... file 'phys.bbx' found.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-phys/phys.bbx
-File: phys.bbx 2018/10/19 v1.1 biblatex bibliography style
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-phys/phys.bbx
+File: phys.bbx 2019/12/03 v1.1b biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
-File: numeric-comp.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count394
-\c@bbx:relatedtotal=\count395
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count411
+\c@bbx:relatedtotal=\count412
 ))))
 Package biblatex Info: Trying to load citation style 'phys'...
 Package biblatex Info: ... file 'phys.cbx' found.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-phys/phys.cbx
-File: phys.cbx 2018/10/19 v1.1 biblatex citation style
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-phys/phys.cbx
+File: phys.cbx 2019/12/03 v1.1b biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
-File: numeric-comp.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count396
-\c@cbx@tempcntb=\count397
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count413
+\c@cbx@tempcntb=\count414
+\c@cbx@tempcntc=\count415
+\c@cbx@tempcntd=\count416
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -965,135 +822,142 @@ Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.cfg
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen175
+\Hy@linkcounter=\count417
+\Hy@pagecounter=\count418
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package hobsub Info: Skipping package `ifluatex' (already loaded).
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package hobsub Info: Skipping package `etexcmds' (already loaded).
-Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count419
 
-(/usr/local/texlive/2018/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)
-Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
-
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
 )
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package hobsub Info: Skipping package `atbegshi' (already loaded).
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-\@linkdim=\dimen171
-\Hy@linkcounter=\count398
-\Hy@pagecounter=\count399
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
-)
-\Hy@SavedSpaceFactor=\count400
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Option `unicode' set `true' on input line 4409.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2018/09/30 v6.88a Hyperref: PDF Unicode definition (HO)
-)
-Package hyperref Info: Hyper figures OFF on input line 4535.
-Package hyperref Info: Link nesting OFF on input line 4540.
-Package hyperref Info: Hyper index ON on input line 4543.
-Package hyperref Info: Plain pages OFF on input line 4550.
-Package hyperref Info: Backreferencing OFF on input line 4555.
+Package hyperref Info: Option `unicode' set `true' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4788.
-\c@Hy@tempcnt=\count401
-LaTeX Info: Redefining \url on input line 5141.
-\XeTeXLinkMargin=\dimen172
-\Fld@menulength=\count402
-\Field@Width=\dimen173
-\Fld@charsize=\dimen174
-Package hyperref Info: Hyper figures OFF on input line 6396.
-Package hyperref Info: Link nesting OFF on input line 6401.
-Package hyperref Info: Hyper index ON on input line 6404.
-Package hyperref Info: backreferencing OFF on input line 6411.
-Package hyperref Info: Link coloring OFF on input line 6416.
-Package hyperref Info: Link coloring with OCG OFF on input line 6421.
-Package hyperref Info: PDF/A mode OFF on input line 6426.
-LaTeX Info: Redefining \ref on input line 6466.
-LaTeX Info: Redefining \pageref on input line 6470.
-\Hy@abspage=\count403
-\c@Item=\count404
-\c@Hfootnote=\count405
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count420
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen176
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count421
+\Field@Width=\dimen177
+\Fld@charsize=\dimen178
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count422
+\c@Item=\count423
+\c@Hfootnote=\count424
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2018/09/30 v6.88a Hyperref driver for luaTeX
-\Fld@listcount=\count406
-\c@bookmark@seq@number=\count407
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2021-02-27 v7.00k Hyperref driver for luaTeX
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
-2.
+(/usr/local/texlive/2021/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count425
+\c@bookmark@seq@number=\count426
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
 )
 \Hy@SectionHShift=\skip78
 )
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 49.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 49.
 Package hyperref Info: Option `colorlinks' set `true' on input line 49.
-\c@thm=\count408
-\c@lemma=\count409
-\c@que=\count410
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
-)
-\@quotelevel=\count411
-\@quotereset=\count412
-
-(./inddef.aux)
+\c@thm=\count427
+\c@lemma=\count428
+\c@que=\count429
+\@quotelevel=\count430
+\@quotereset=\count431
+ (./inddef.aux)
 \openout1 = inddef.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
 LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
 LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
 LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
+5.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
 LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 95.
 LaTeX Font Info:    ... okay on input line 95.
@@ -1154,152 +1018,156 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 95.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 95.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 95.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 95.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 95.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 95.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 95.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
 Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2021-05-07 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
 
-\openout4 = inddef.bcf
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout3 = inddef.bcf
+
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'inddef.bbl' found.
- (./inddef.bbl
-LaTeX Font Info:    Calculating math sizes for size <10.95001> on input line 52.
 
+(./inddef.bbl
+LaTeX Font Info:    Calculating math sizes for size <10.95001> on input line 52
+.
+(load cache: extra_lmroman7-regular.luc)(load cache: extra_lmroman5-regular.luc)
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 6.47295pt on input line 52.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 4.62357pt on input line 52.
-LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 6.47295pt on input line 52.
-luaotfload | aux : font no 62 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 62)
+)
 Package biblatex Info: Reference section=0 on input line 95.
 Package biblatex Info: Reference segment=0 on input line 95.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-LaTeX Info: Redefining \color on input line 86.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: luatex.def on input line 147.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/luatex.def
-File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2020/10/05 v1.2a Graphics/color driver for luatex
 
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count413
-\scratchdimen=\dimen175
-\scratchbox=\box61
-\nofMPsegments=\count414
-\nofMParguments=\count415
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count416
-\MPscratchDim=\dimen176
-\MPnumerator=\count417
-\makeMPintoPDFobject=\count418
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count432
+\scratchdimen=\dimen179
+\scratchbox=\box68
+\nofMPsegments=\count433
+\nofMParguments=\count434
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count435
+\MPscratchDim=\dimen180
+\MPnumerator=\count436
+\makeMPintoPDFobject=\count437
+\everyMPtoPDFconversion=\toks37
 )))
 Package hyperref Info: Link coloring ON on input line 95.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-\c@section@level=\count419
+(/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count438
 )
 LaTeX Info: Redefining \ref on input line 95.
 LaTeX Info: Redefining \pageref on input line 95.
 LaTeX Info: Redefining \nameref on input line 95.
+ (./inddef.out) (./inddef.out)
+\@outlinefile=\write4
 
-(./inddef.out) (./inddef.out)
-\@outlinefile=\write5
-
-\openout5 = inddef.out
+\openout4 = inddef.out
+(load cache: extra_lmroman17-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 15.97903pt on input line 98.
-luaotfload | aux : font no 64 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 64
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 15.97903pt on input line 98.
+(load cache: extra_lmroman12-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 98.
-luaotfload | aux : font no 67 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 67
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 98.
-LaTeX Font Info:    Calculating math sizes for size <13.14001> on input line 98.
-
+LaTeX Font Info:    Calculating math sizes for size <13.14001> on input line 98
+.
+(load cache: extra_lmroman6-regular.luc)
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 7.76755pt on input line 98.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 5.54828pt on input line 98.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 13.31584pt on input line 122.
-luaotfload | aux : font no 92 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 92
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 13.31584pt on input line 122.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
 (Font)              scaled to size 13.31584pt on input line 122.
-luaotfload | aux : font no 94 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 94
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 13.31584pt on input line 122.
- [1
+(load cache: extra_lmsans12-regular.luc) [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
 (Font)              scaled to size 9.24713pt on input line 220.
-luaotfload | aux : font no 37 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 37
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 9.24713pt on input line 220.
+(load cache: extra_lmroman10-italic.luc)
 LaTeX Font Info:    Font shape `JT3/gt/m/it' in size <10> not available
 (Font)              Font shape `JT3/gt/m/n' tried instead on input line 220.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
 (Font)              scaled to size 8.44485pt on input line 220.
-luaotfload | aux : font no 37 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 37
 LaTeX Font Info:    Font shape `JY3/gt/m/it' in size <10> not available
 (Font)              Font shape `JY3/gt/m/n' tried instead on input line 220.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 8.44485pt on input line 220.
-LaTeX Font Info:    Calculating math sizes for size <8.76001> on input line 242.
-
+LaTeX Font Info:    Calculating math sizes for size <8.76001> on input line 242
+.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.59996> not available
@@ -1331,85 +1199,79 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
 
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 5.17834pt on input line 242.
-luaotfload | aux : font no 110 (nil) does not define feature vrt2 for script dfl
-t with language dflt
-luaotfload | aux : no font with id 110 [3] [4]
+[3] [4]
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 4.62357pt on input line 357.
-luaotfload | aux : font no 111 (nil) does not define feature vrt2 for script dfl
-t with language dflt
-luaotfload | aux : no font with id 111 [5] [6] [7]
-LaTeX Font Info:    Font shape `JT3/mc/bx/it' in size <10> not available
+ [5] [6] [7]
+LaTeX Font Info:    Font shape `JT3/mc/m/it' in size <10> not available
+(Font)              Font shape `JT3/mc/m/n' tried instead on input line 571.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 8.44485pt on input line 571.
+LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <10> not available
+(Font)              Font shape `JY3/mc/m/n' tried instead on input line 571.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 8.44485pt on input line 571.
+(load cache: extra_lmroman10-bolditalic.luc)
+LaTeX Font Info:    Font shape `JT3/mc/b/it' in size <10> not available
 (Font)              Font shape `JT3/gt/m/n' tried instead on input line 571.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
 (Font)              scaled to size 8.44485pt on input line 571.
-luaotfload | aux : font no 37 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 37
-LaTeX Font Info:    Font shape `JY3/mc/bx/it' in size <10> not available
+LaTeX Font Info:    Font shape `JY3/mc/b/it' in size <10> not available
 (Font)              Font shape `JY3/gt/m/n' tried instead on input line 571.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 8.44485pt on input line 571.
- [8]
+ [8](load cache: extra_lmromancaps10-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/sc' in size <10> not available
 (Font)              Font shape `JT3/mc/m/n' tried instead on input line 655.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 8.44485pt on input line 655.
-luaotfload | aux : font no 21 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 21
 LaTeX Font Info:    Font shape `JY3/mc/m/sc' in size <10> not available
 (Font)              Font shape `JY3/mc/m/n' tried instead on input line 655.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 8.44485pt on input line 655.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 656.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 656.
- (./inddef.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 656.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 656.
-Package rerunfilecheck Info: File `inddef.out' has not changed.
-(rerunfilecheck)             Checksum: 6A948140104BFB9C781ECD3C12721E67;715.
-
+(load cache: extra_lmmono10-regular.luc) [9] (./inddef.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.5pt have occurred.
 
+Package rerunfilecheck Info: File `inddef.out' has not changed.
+(rerunfilecheck)             Checksum: 6A948140104BFB9C781ECD3C12721E67;715.
 Package logreq Info: Writing requests to 'inddef.run.xml'.
 
 \openout1 = inddef.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 28505 strings out of 494407
- 244168,1144653 words of node,token memory allocated
- 18466 words of node memory still in use:
-   11 hlist, 2 vlist, 5 rule, 59 glue, 176 kern, 1 glyph, 5655 attribute, 992 gl
-ue_spec, 293 attribute_list, 1 write, 15 user_defined, 4 pdf_action nodes
-   avail lists: 1:21,2:69879,3:417,4:300,5:221,6:30,7:5759,8:2048,9:653,10:34,11
-:20
- 31881 multiletter control sequences out of 65536+600000
- 129 fonts using 67903671 bytes
- 56i,19n,74p,983b,1107s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regul
-ar.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmono10-reg
-ular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman6-r
-egular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman7
--regular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroma
-n10-bold.otf></usr/local/texlive/2018/texmf-dist/fonts/truetype/public/ipaex/ipa
-exg.ttf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmsans12-re
-gular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10
--regular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroma
-n12-regular.otf></usr/local/texlive/2018/texmf-dist/fonts/truetype/public/ipaex/
-ipaexm.ttf></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.
-pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on inddef.pdf (9 pages, 489784 bytes).
+ 20937 strings out of 478388
+ 305809,1373583 words of node,token memory allocated
+ 44114 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 59 glue, 623 kern, 1 glyph, 16553 attribute, 996 g
+lue_spec, 855 attribute_list, 1 write, 132 user_defined, 4 pdf_action nodes
+   avail lists: 1:33,2:67057,3:622,4:445,5:433,6:46,7:8621,8:121,9:3604,10:34,11
+:30
+ 40208 multiletter control sequences out of 65536+600000
+ 116 fonts using 73143439 bytes
+ 114i,19n,112p,1765b,1195s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regul
+ar.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-reg
+ular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman6-r
+egular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman7
+-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroma
+n10-bold.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/haranoaji
+/HaranoAjiGothic-Medium.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/p
+ublic/lm/lmsans12-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype
+/public/lm/lmroman10-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opent
+ype/public/lm/lmroman12-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/op
+entype/public/haranoaji/HaranoAjiMincho-Regular.otf></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/amsfonts/symbols/msbm10.pfb>
+Output written on inddef.pdf (9 pages, 240541 bytes).
 
 PDF statistics: 274 PDF objects out of 1000 (max. 8388607)
  222 compressed objects within 3 object streams

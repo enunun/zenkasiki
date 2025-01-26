@@ -1,16 +1,23 @@
-[1] Config.pm:302> INFO - This is Biber 2.11
-[1] Config.pm:305> INFO - Logfile is 'inddef.blg'
-[48] biber:313> INFO - === 金 12月 28, 2018, 02:48:13
-[80] Biber.pm:371> INFO - Reading 'inddef.bcf'
-[181] Biber.pm:857> INFO - Found 6 citekeys in bib section 0
-[202] Biber.pm:3976> INFO - Processing section 0
-[222] Biber.pm:4136> INFO - Looking for bibtex format file 'bib/youryou.bib' for section 0
-[224] bibtex.pm:1500> INFO - LaTeX decoding ...
-[232] bibtex.pm:1316> INFO - Found BibTeX data source 'bib/youryou.bib'
-[312] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[312] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[312] Biber.pm:3804> INFO - Sorting list 'mysorting/global//global/global' of type 'entry' with template 'mysorting' and locale 'en-US'
-[312] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[325] bbl.pm:617> INFO - Writing 'inddef.bbl' with encoding 'UTF-8'
-[325] bbl.pm:618> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[334] bbl.pm:720> INFO - Output to inddef.bbl
+[0] Config.pm:311> INFO - This is Biber 2.16
+[1] Config.pm:314> INFO - Logfile is 'inddef.blg'
+[144] biber:340> INFO - === 日  1月 26, 2025, 21:23:17
+[214] Biber.pm:415> INFO - Reading 'inddef.bcf'
+[354] Biber.pm:952> INFO - Found 6 citekeys in bib section 0
+[383] Biber.pm:4340> INFO - Processing section 0
+[405] Biber.pm:4531> INFO - Looking for bibtex format file 'bib/youryou.bib' for section 0
+[407] bibtex.pm:1689> INFO - LaTeX decoding ...
+[418] bibtex.pm:1494> INFO - Found BibTeX data source 'bib/youryou.bib'
+[545] Utils.pm:395> WARN - Unknown field 'sotname' found in sorting template
+[547] Utils.pm:395> WARN - Unknown field 'sotname' found in sorting template
+[548] Utils.pm:395> WARN - Unknown field 'sotname' found in sorting template
+[548] Utils.pm:395> WARN - Unknown field 'sotname' found in sorting template
+[549] Utils.pm:395> WARN - Unknown field 'sotname' found in sorting template
+[550] Utils.pm:395> WARN - Unknown field 'sotname' found in sorting template
+[575] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[575] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[576] Biber.pm:4168> INFO - Sorting list 'mysorting/global//global/global' of type 'entry' with template 'mysorting' and locale 'en-US'
+[576] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[596] bbl.pm:654> INFO - Writing 'inddef.bbl' with encoding 'UTF-8'
+[596] bbl.pm:655> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[608] bbl.pm:757> INFO - Output to inddef.bbl
+[608] Biber.pm:128> INFO - WARNINGS: 6
